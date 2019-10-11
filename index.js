@@ -14,15 +14,9 @@ function submitData(userName, userEmail) {
       email: userEmail
     })
   })
-    .then(function(response) {
-      return response.json();
-    })
-    .then(function(json) {
-      appendId(json);
-    })
-    .catch(function(error) {
-      renderError();
-    })
+    .then(response => response.json())
+    .then(json => appendId(json))
+    .catch(error => renderError());
 }
 
 function appendId(json) {

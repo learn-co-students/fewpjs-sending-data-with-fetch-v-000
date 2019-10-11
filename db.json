@@ -1,5 +1,6 @@
 {
-  "dogs": [{
+  "dogs": [
+    {
       "dogName": "Luca",
       "dogBreed": "German Shepherd",
       "id": 1
@@ -8,9 +9,21 @@
       "dogName": "Lola",
       "dogBreed": "Giant Schnauzer",
       "id": 2
+    },
+    {
+      "dogName": "Maggie",
+      "dogBreed": "Poodle",
+      "submit": "Submit",
+      "id": 3
+    },
+    {
+      "dogName": "Byron",
+      "dogBreed": "Poodle",
+      "id": 4
     }
   ],
-  "cats": [{
+  "cats": [
+    {
       "catName": "Stanley",
       "catBreed": "Tabby",
       "id": 1
@@ -21,10 +34,82 @@
       "id": 2
     }
   ],
-  "users": [],
-  "robots": [{
-    "robotName": "C8-09S100K",
-    "robotType": "Human Assistant",
-    "id": 9000
-  }]
+  "users": [
+    {
+      "name": "ally",
+      "email": "ally@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "keenan",
+      "email": "keenan@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "mom",
+      "email": "mom@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "dad",
+      "email": "dad@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "grandpa",
+      "email": "grandpa@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "ally",
+      "email": "ally@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "ally",
+      "email": "ally@gmail.com",
+      "id": 7
+    },
+    {
+      "name": "ally",
+      "email": "ally@gmail.com",
+      "id": 8
+    },
+    {
+      "name": "ally",
+      "email": "ally@gmail.com",
+      "id": 9
+    },
+    {
+      "name": "ally",
+      "email": "ally@gmail.com",
+      "id": 10
+    },
+    {
+      "name": "ally",
+      "email": "ally@gmail.com",
+      "id": 11
+    },
+    {
+      "name": "ally",
+      "email": "ally@gmail.com",
+      "id": 12
+    },
+    {
+      "name": "ally",
+      "email": "ally@gmail.com",
+      "id": 13
+    },
+    {
+      "name": "ally",
+      "id": 14
+    }
+  ],
+  "robots": [
+    {
+      "robotName": "C8-09S100K",
+      "robotType": "Human Assistant",
+      "id": 9000
+    }
+  ]
 }

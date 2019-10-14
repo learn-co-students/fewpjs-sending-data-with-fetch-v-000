@@ -1,6 +1,6 @@
 // Add your code here
 function submitData(name, email) {
-    fetch('http://localhost:3000/users', {
+    return fetch('http://localhost:3000/users', {
         method: "POST", 
         headers: {
             "Content-Type": "application/json",
@@ -11,15 +11,12 @@ function submitData(name, email) {
              email
         })
     })
-    .then(response => response.json())
-    .then(json => appendId(json))
-    .catch(error => {
+    .then(function(response) { return response.json()})
+    .then(function(json) {document.body.innerHTML = json["id"]})
+    .catch(function(error) {
         document.body.innerHTML = error.message
     })
 }
 
-function appendId(id) {
-    document.body.innerHTML = id["id"]
-    
-}
+
 

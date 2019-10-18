@@ -1,5 +1,6 @@
 {
-  "dogs": [{
+  "dogs": [
+    {
       "dogName": "Luca",
       "dogBreed": "German Shepherd",
       "id": 1
@@ -8,9 +9,36 @@
       "dogName": "Lola",
       "dogBreed": "Giant Schnauzer",
       "id": 2
+    },
+    {
+      "dogName": "Leo",
+      "dogBreed": "Beagle",
+      "submit": "Submit",
+      "id": 3
+    },
+    {
+      "dogName": "Scruffy",
+      "dogBreed": "Cocker Spaniel",
+      "id": 4
+    },
+    {
+      "dogName": "Beanie",
+      "dogBreed": "Mastiff",
+      "id": 5
+    },
+    {
+      "dogName": "Byron",
+      "dogBreed": "Poodle",
+      "id": 6
+    },
+    {
+      "dogName": "Byron",
+      "dogBreed": "Poodle",
+      "id": 7
     }
   ],
-  "cats": [{
+  "cats": [
+    {
       "catName": "Stanley",
       "catBreed": "Tabby",
       "id": 1
@@ -21,10 +49,98 @@
       "id": 2
     }
   ],
-  "users": [],
-  "robots": [{
-    "robotName": "C8-09S100K",
-    "robotType": "Human Assistant",
-    "id": 9000
-  }]
+  "users": [
+    {
+      "name": "Aziz",
+      "email": "az@boss.com",
+      "id": 1
+    },
+    {
+      "name": "Aziz",
+      "email": "az@boss.com",
+      "id": 2
+    },
+    {
+      "name": "Aziz",
+      "email": "az@boss.com",
+      "id": 3
+    },
+    {
+      "name": "Aziz",
+      "email": "az@boss.com",
+      "id": 4
+    },
+    {
+      "name": "Aziz",
+      "email": "az@boss.com",
+      "id": 5
+    },
+    {
+      "name": "jimmy",
+      "email": "jm@boss.com",
+      "id": 6
+    },
+    {
+      "name": "kimbucha",
+      "email": "ka@boss.com",
+      "id": 7
+    },
+    {
+      "name": "kimbucha",
+      "email": "ka@boss.com",
+      "id": 8
+    },
+    {
+      "name": "Aziz",
+      "email": "az@boss.com",
+      "id": 9
+    },
+    {
+      "name": "Aziz",
+      "email": "az@boss.com",
+      "id": 10
+    },
+    {
+      "name": "Aziz",
+      "email": "az@boss.com",
+      "id": 11
+    },
+    {
+      "name": "Aziz",
+      "email": "az@boss.com",
+      "id": 12
+    },
+    {
+      "name": "Aziz",
+      "email": "az@boss.com",
+      "id": 13
+    },
+    {
+      "name": "Aziz",
+      "email": "az@boss.com",
+      "id": 14
+    },
+    {
+      "name": "Aziz",
+      "email": "az@boss.com",
+      "id": 15
+    },
+    {
+      "name": "Aziz",
+      "email": "az@boss.com",
+      "id": 16
+    },
+    {
+      "name": "Aziz",
+      "email": "az@boss.com",
+      "id": 17
+    }
+  ],
+  "robots": [
+    {
+      "robotName": "C8-09S100K",
+      "robotType": "Human Assistant",
+      "id": 9000
+    }
+  ]
 }

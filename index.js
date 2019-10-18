@@ -18,16 +18,21 @@ const submitData = function(name, email) {
     }; 
 
     return fetch("http://localhost:3000/users", configObj)
-        .then(response => response.json())
-        .then(json => 
-            Object.keys(json) => 
-                const h1 = document.createElement('h1');
-                h1.textContent = id;
+        .then((response) => response.text())
+        .then((json) => {
+            document.getElementById('output').innerHTML = json;
             
-            );
+        })
+        .catch((error) => {
+            document.body.innerHTML = error.message;
+        })
 }
 
 // let ids = json.map(user => {
 //     return `<h1>${user.id}</h1>`
 // })
 // userForm.innerHTML = ids;
+
+// Object.keys(json) =>
+// const h1 = document.createElement('h1');
+// h1.textContent = id;

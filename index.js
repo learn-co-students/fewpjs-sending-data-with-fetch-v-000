@@ -20,7 +20,7 @@ const submitData = function(name, email) {
     return fetch("http://localhost:3000/users", configObj)
         .then(response => response.json())
         .then(json => 
-            Object.keys(json).(id) => 
+            Object.keys(json) => 
                 const h1 = document.createElement('h1');
                 h1.textContent = id;
             

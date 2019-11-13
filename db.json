@@ -15,6 +15,18 @@
       "dogBreed": "Wheaten Terrier",
       "submit": "Submit",
       "id": 3
+    },
+    {
+      "dogName": "Eric",
+      "dogBreed": "Wheaten Terrier",
+      "submit": "Submit",
+      "id": 4
+    },
+    {
+      "dogName": "",
+      "dogBreed": "",
+      "submit": "Submit",
+      "id": 5
     }
   ],
   "cats": [

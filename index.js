@@ -20,9 +20,9 @@ function submitData(name, email){
 
 	fetch("http://localhost:3000/users", configObj)
 	.then(function(response){
-		// console.log(response)
+		console.log(response)
 		console.log(response.json())
-		// return response.json()
+		return response.json()
 	}).then(function(object){
 		newSection.innerText = object.id
 		pageBody.appendChild(newSection)

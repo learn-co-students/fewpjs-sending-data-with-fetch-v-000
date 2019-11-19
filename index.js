@@ -20,16 +20,13 @@ function submitData(name, email){
 
 	return fetch("http://localhost:3000/users", configObj)
 	.then(function(response){
-		// console.log(response)
-		// console.log(response.json())
 		return response.json()
 	}).then(function(object){
-		newSection.innerText = object.id
+		newSection.innerHTML = object.id
 		pageBody.appendChild(newSection)
-		console.log(object)
 		return object
 	}).catch(function(error){
-		newSection.innerText = error.message
+		newSection.innerHTML = error.message
 		pageBody.appendChild(newSection)
 	})
 }

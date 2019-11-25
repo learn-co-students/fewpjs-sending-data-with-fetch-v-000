@@ -1,5 +1,6 @@
 {
-  "dogs": [{
+  "dogs": [
+    {
       "dogName": "Luca",
       "dogBreed": "German Shepherd",
       "id": 1
@@ -8,9 +9,41 @@
       "dogName": "Lola",
       "dogBreed": "Giant Schnauzer",
       "id": 2
+    },
+    {
+      "dogName": "Bella",
+      "dogBreed": "Yorkshire Terrier",
+      "submit": "Submit",
+      "id": 3
+    },
+    {
+      "dogName": "byron",
+      "dogBreed": "poodle",
+      "id": 4
+    },
+    {
+      "dogName": "Billy",
+      "dogBreed": "Rottweiler",
+      "id": 5
+    },
+    {
+      "dogName": "John",
+      "dogBreed": "Pitbull",
+      "id": 6
+    },
+    {
+      "dogName": "Glitch",
+      "dogBreed": "Cocker Spaniel",
+      "id": 7
+    },
+    {
+      "dogName": "Glitch",
+      "dogBreed": "Cocker Spaniel",
+      "id": 8
     }
   ],
-  "cats": [{
+  "cats": [
+    {
       "catName": "Stanley",
       "catBreed": "Tabby",
       "id": 1
@@ -21,10 +54,18 @@
       "id": 2
     }
   ],
-  "users": [],
-  "robots": [{
-    "robotName": "C8-09S100K",
-    "robotType": "Human Assistant",
-    "id": 9000
-  }]
+  "users": [
+    {
+      "name": "Sushi",
+      "email": "sushi@sushi.com",
+      "id": 1
+    }
+  ],
+  "robots": [
+    {
+      "robotName": "C8-09S100K",
+      "robotType": "Human Assistant",
+      "id": 9000
+    }
+  ]
 }

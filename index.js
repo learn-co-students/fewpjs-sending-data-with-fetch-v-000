@@ -1,12 +1,14 @@
 // Add your code here
-let formData = {
-  name: "Sushi",
-  email: "sushi@sushi.com"
-};
+// let formData = {
+//   name: "Sushi",
+//   email: "sushi@sushi.com"
+// };
+
+let h1 = document.getElementById('response');
 
 
 function submitData(userName, userEmail){
-  fetch("http://localhost:3000/users", {
+  return fetch("http://localhost:3000/users", {
   method: "POST",
   headers: {
     "Content-Type": "application/json",
@@ -16,8 +18,15 @@ function submitData(userName, userEmail){
     name: userName,
     email: userEmail
     })
-  });
+  })
+  .then(response => response.json())
+  .then(object =>
+    h1.innerHTML = object.id)
+  .catch(error =>
+  document.body.innerHTML = error.message);  
 }
+
+
 
 // let configObj = {
 //   //method: 'post',

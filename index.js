@@ -21,6 +21,6 @@ function submitData(name, email) {
 
   return fetch("http://localhost:3000/users", obj)
     .then(resp => resp.json())
-    .then(user => fetchHelper(user.id))
-    .catch(error => fetchHelper(error.message));
+    .then(user => appendNewPElement(user.id))
+    .catch(error => appendNewPElement(error.message));
 };

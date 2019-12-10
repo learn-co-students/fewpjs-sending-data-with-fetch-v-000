@@ -13,7 +13,7 @@ function submitData(name, email) {
     body: JSON.stringify(formData)
   };
 
-  function fetchHelper(param) {
+  function appendNewPElement(param) {
     let element = document.createElement("p");
     element.innerHTML = param;
     document.body.appendChild(element);

@@ -15,7 +15,7 @@ function submitData(name, email) {
 
   function appendNewPElement(param) {
     let element = document.createElement("p");
-    element.innerHTML = param;
+    element.innerHTML = param;``
     document.body.appendChild(element);
   };
 

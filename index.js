@@ -1,23 +1,18 @@
-function submitData(username, userEmail) {
+const submitData = (username, userEmail) => {
+  let formData = {
+    name: username,
+    email: userEmail
+  };
+
   return fetch("http://localhost:3000/users", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "Accept": "application/json"
+      Accept: "application/json"
     },
-    body: JSON.stringify({
-      name: username,
-      email: userEmail
-    })
+    body: JSON.stringify(formData)
   })
-    .then(function (response) {
-      return response.json();
-    })
-    .then(function (obj) {
-      document.body.innerHTML = obj.id
-    })
-    .catch(function (error) {
-      console.log(error)
-      document.body.innerHTML = error.message
-    })
-}
+    .then(resp => resp.json())
+    .then(obj => (document.body.innerHTML = obj.id))
+    .catch(error => (document.body.innerHTML = error.message));
+};

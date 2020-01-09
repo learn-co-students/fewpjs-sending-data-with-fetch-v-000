@@ -1,12 +1,9 @@
 // Add your code here
 function handleJson(userObject) {
-  p = document.createElement("p")
-  console.log(userObject.id)
+  let p = document.createElement("p");
   p.textContent = userObject.id;
-  outputArea = document.getElementById("outputId");
-  outputArea.appendChild(p)
-  
-  
+  let outputArea = document.getElementById("outputId");
+  outputArea.appendChild(p);
 }
 
 function submitData(username, userEmail) {
@@ -22,19 +19,18 @@ function submitData(username, userEmail) {
     method: "POST",
     body: JSON.stringify(userData)
   };
-  
-   return fetch("http://localhost:3000/users", configObject)
+
+  return fetch("http://localhost:3000/users", configObject)
     .then(function(response) {
       return response.json();
     })
     .then(function(object) {
-      handleJson(object)
+      handleJson(object);
     })
     .catch(function(error) {
-      error = document.createElement("p")
-      error.textContent = error.message;
-      errorOutputArea = document.getElementById("error");
-      errorOutputArea.appendChild(error);
-    })
+      let errorElement = document.createElement("p")
+      errorElement.textContent = error.message;
+      let errorOutputArea = document.getElementById("error");
+      errorOutputArea.appendChild(errorElement);
+    });
 }
-

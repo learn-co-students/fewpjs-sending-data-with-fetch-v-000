@@ -1,4 +1,12 @@
 // Add your code here
+function handleJson(userObject) {
+  li = document.createElement(li)
+  li.textContent = userObject.id.value
+  outputArea = document.getElementById("outputId");
+  outputArea.appendChild(li)
+  
+  
+}
 function submitData(username, userEmail) {
   let userData = {
     'name': username,
@@ -18,7 +26,7 @@ function submitData(username, userEmail) {
       return response.json();
     })
     .then(function(object) {
-      console.log(object);
+      handleJson(object);
     })
     .catch(function(error) {
       alert("oh no!");
@@ -26,8 +34,3 @@ function submitData(username, userEmail) {
     })
 }
 
-submit = document.getElementById("submit")
-submit.addEventListener("click", function() {
-inputForm = document.getElementById("inputUser");
-submitData(inputForm.name.value, inputForm.email.value);
-});

@@ -9,6 +9,7 @@ function submitData(username, userEmail) {
       "Content-Type": "application/json",
       "Accept": "application/json"
     },
+    method: "POST",
     body: JSON.stringify(userData)
   };
   
@@ -19,4 +20,14 @@ function submitData(username, userEmail) {
     .then(function(object) {
       console.log(object);
     })
+    .catch(function(error) {
+      alert("oh no!");
+      console.log(error.message);
+    })
 }
+
+submit = document.getElementById("submit")
+submit.addEventListener("click", function() {
+inputForm = document.getElementById("inputUser");
+submitData(inputForm.name.value, inputForm.email.value);
+});

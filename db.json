@@ -1,5 +1,6 @@
 {
-  "dogs": [{
+  "dogs": [
+    {
       "dogName": "Luca",
       "dogBreed": "German Shepherd",
       "id": 1
@@ -10,7 +11,8 @@
       "id": 2
     }
   ],
-  "cats": [{
+  "cats": [
+    {
       "catName": "Stanley",
       "catBreed": "Tabby",
       "id": 1
@@ -21,10 +23,138 @@
       "id": 2
     }
   ],
-  "users": [],
-  "robots": [{
-    "robotName": "C8-09S100K",
-    "robotType": "Human Assistant",
-    "id": 9000
-  }]
+  "users": [
+    {
+      "name": "miriam",
+      "email": "mir@email.com",
+      "id": 1
+    },
+    {
+      "name": "miriam",
+      "email": "mir@email.com",
+      "id": 2
+    },
+    {
+      "name": "miriam",
+      "email": "mir@email.com",
+      "id": 3
+    },
+    {
+      "name": "miriam",
+      "email": "mir@email.com",
+      "id": 4
+    },
+    {
+      "name": "miriam",
+      "email": "mir@email.com",
+      "id": 5
+    },
+    {
+      "name": "miriam",
+      "email": "mir@email.com",
+      "id": 6
+    },
+    {
+      "name": "miriam",
+      "email": "mir@email.com",
+      "id": 7
+    },
+    {
+      "name": "miriam",
+      "email": "mir@email.com",
+      "id": 8
+    },
+    {
+      "name": "miriam",
+      "email": "mir@email.com",
+      "id": 9
+    },
+    {
+      "name": "miriam",
+      "email": "mir@email.com",
+      "id": 10
+    },
+    {
+      "name": "miriam",
+      "email": "mir@email.com",
+      "id": 11
+    },
+    {
+      "name": "miriam",
+      "email": "mir@email.com",
+      "id": 12
+    },
+    {
+      "name": "miriam",
+      "email": "mir@email.com",
+      "id": 13
+    },
+    {
+      "name": "miriam",
+      "email": "mir@email.com",
+      "id": 14
+    },
+    {
+      "name": "miriam",
+      "email": "mir@email.com",
+      "id": 15
+    },
+    {
+      "name": "miriam",
+      "email": "mir@email.com",
+      "id": 16
+    },
+    {
+      "name": "miriam",
+      "email": "mir@email.com",
+      "id": 17
+    },
+    {
+      "name": "miriam",
+      "email": "mir@email.com",
+      "id": 18
+    },
+    {
+      "name": "miriam",
+      "email": "mir@email.com",
+      "id": 19
+    },
+    {
+      "name": "miriam",
+      "email": "mir@email.com",
+      "id": 20
+    },
+    {
+      "name": "Miriam",
+      "email": "mir@email.com",
+      "id": 21
+    },
+    {
+      "name": "Miriam",
+      "email": "mir@email.com",
+      "id": 22
+    },
+    {
+      "name": "Miriam",
+      "email": "mir@email.com",
+      "id": 23
+    },
+    {
+      "name": "Miriam",
+      "email": "mir@email.com",
+      "id": 24
+    },
+    {
+      "name": "Miriam",
+      "email": "mir@email.com",
+      "id": 25
+    }
+  ],
+  "robots": [
+    {
+      "robotName": "C8-09S100K",
+      "robotType": "Human Assistant",
+      "id": 9000
+    }
+  ]
 }

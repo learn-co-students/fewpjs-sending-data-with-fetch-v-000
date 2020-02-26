@@ -11,7 +11,10 @@ let configObject = {
 		"Content-Type": "application/json",
 		"Accept": "application/json"
 	},
-	body: JSON.stringify(formData)
+	body: JSON.stringify({
+		name: "Miriam",
+		email: "mir@email.com"
+	})
 }
 
 const submitData = () =>  {

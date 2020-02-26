@@ -1,25 +1,18 @@
 // Add your code here
 
-let formData = {
-	name: "Miriam",
-	email: "mir@email.com"
-}
+function submitData(name, email) {
 
-let configObject = {
+	return fetch("http://localhost:3000/users", {
 	method: "POST",
 	headers: {
 		"Content-Type": "application/json",
 		"Accept": "application/json"
 	},
 	body: JSON.stringify({
-		name: "Miriam",
-		email: "mir@email.com"
+		name,
+		email
 	})
-}
-
-const submitData = () =>  {
-
-	fetch("http://localhost:3000/users", configObject)
+})
 	.then(response => response.json())
 	.then(result => {
 		let id = result.id
@@ -35,10 +28,10 @@ const submitData = () =>  {
 
 }
 
-const displayErrorMessageInDom = (error) => {
+function displayErrorMessageInDom(error) {
 	let body = document.querySelector('body')
 	let errorMessageDiv = document.createElement('div')
-	section.innerHTML = error.message
-	console.log(error.message)
+	errorMessageDiv.innerHTML = error.message
+	// console.log(error.message)
 	body.appendChild(errorMessageDiv)
 }

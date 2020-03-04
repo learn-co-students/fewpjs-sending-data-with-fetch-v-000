@@ -25,16 +25,6 @@
       "dogName": "Byron",
       "dogBreed": "Poodle",
       "id": 5
-    },
-    {
-      "dogName": "Byron",
-      "dogBreed": "Poodle",
-      "id": 6
-    },
-    {
-      "dogName": "Byron",
-      "dogBreed": "Poodle",
-      "id": 7
     }
   ],
   "cats": [
@@ -49,11 +39,7 @@
       "id": 2
     }
   ],
-  "users": [
-    {
-      "id": 1
-    }
-  ],
+  "users": [],
   "robots": [
     {
       "robotName": "C8-09S100K",

@@ -24,12 +24,8 @@ function submitData(userName, userEmail){
       document.getElementsByTagName("body")[0].appendChild(element);
     })
     .catch(function(error) {
-      // alert("Bad things! Ragnarők!");
-      // console.log(error.message);
       let element = document.createElement("p");
       element.innerHTML = error.message;
       document.getElementsByTagName("body")[0].appendChild(element);
     });
 }
-
-// submitData(userName, userEmail);

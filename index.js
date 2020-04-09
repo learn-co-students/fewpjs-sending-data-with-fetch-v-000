@@ -1,12 +1,7 @@
 // Add your code here
-// A body with the name and email passed in as arguments to submitData. 
-
 document.addEventListener("DOMContentLoaded", submitData)
-// let submitData = {
-//     // These should be assigned to name and email keys within an object. 
-//     userName: "Scott",
-//     userEmail: "swakeman@ca.rr.com"
-// };
+
+// A body with the name and email passed in as arguments to submitData. 
 function submitData(name, email) {
 
 

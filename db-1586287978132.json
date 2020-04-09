@@ -23,33 +23,7 @@
       "id": 2
     }
   ],
-  "users": [
-    {
-      "userName": "Scott",
-      "userEmail": "swakeman@ca.rr.com",
-      "id": 1
-    },
-    {
-      "userName": "Scott",
-      "userEmail": "swakeman@ca.rr.com",
-      "id": 2
-    },
-    {
-      "userName": "Scott",
-      "userEmail": "swakeman@ca.rr.com",
-      "id": 3
-    },
-    {
-      "userName": "Scott",
-      "userEmail": "swakeman@ca.rr.com",
-      "id": 4
-    },
-    {
-      "userName": "Scott",
-      "userEmail": "swakeman@ca.rr.com",
-      "id": 5
-    }
-  ],
+  "users": [],
   "robots": [
     {
       "robotName": "C8-09S100K",

@@ -1,5 +1,6 @@
 {
-  "dogs": [{
+  "dogs": [
+    {
       "dogName": "Luca",
       "dogBreed": "German Shepherd",
       "id": 1
@@ -10,7 +11,8 @@
       "id": 2
     }
   ],
-  "cats": [{
+  "cats": [
+    {
       "catName": "Stanley",
       "catBreed": "Tabby",
       "id": 1
@@ -21,10 +23,80 @@
       "id": 2
     }
   ],
-  "users": [],
-  "robots": [{
-    "robotName": "C8-09S100K",
-    "robotType": "Human Assistant",
-    "id": 9000
-  }]
+  "users": [
+    {
+      "userName": "Scott",
+      "userEmail": "swakeman@ca.rr.com",
+      "id": 1
+    },
+    {
+      "userName": "Scott",
+      "userEmail": "swakeman@ca.rr.com",
+      "id": 2
+    },
+    {
+      "userName": "Scott",
+      "userEmail": "swakeman@ca.rr.com",
+      "id": 3
+    },
+    {
+      "userName": "Scott",
+      "userEmail": "swakeman@ca.rr.com",
+      "id": 4
+    },
+    {
+      "userName": "Scott",
+      "userEmail": "swakeman@ca.rr.com",
+      "id": 5
+    },
+    {
+      "name": {
+        "isTrusted": true
+      },
+      "id": 6
+    },
+    {
+      "name": {
+        "isTrusted": true
+      },
+      "id": 7
+    },
+    {
+      "name": {
+        "isTrusted": true
+      },
+      "id": 8
+    },
+    {
+      "name": {
+        "isTrusted": true
+      },
+      "id": 9
+    },
+    {
+      "name": {
+        "isTrusted": true
+      },
+      "id": 10
+    },
+    {
+      "name": {
+        "isTrusted": true
+      },
+      "id": 11
+    },
+    {
+      "name": {
+        "isTrusted": true
+      },
+      "id": 12
+    }
+  ],
+  "robots": [
+    {
+      "robotName": "C8-09S100K",
+      "robotType": "Human Assistant",
+      "id": 9000
+    }
+  ]
 }

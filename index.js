@@ -1,1 +1,31 @@
-// Add your code here
+
+function submitData( name, email){
+    return fetch("http://localhost:3000/users", {
+        method: "POST", 
+        headers: {
+            "Content-Type": "application/json",
+            "Accept": "application/json"
+        },
+        body: JSON.stringify({
+            name,
+            email
+        })
+    })
+
+   
+    .then(function(response) {
+        return response.json()
+    })
+    .then(function(object){
+        // this is only returning the last item to the browers.  why?
+        document.body.innerHTML = object["id"]
+        document.body.innerHTML = object["name"]
+        document.body.innerHTML = object["email"]
+    })
+    .catch(function(error) {
+        document.body.innerHTML = error.message
+    })
+}
+
+
+

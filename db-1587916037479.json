@@ -19,12 +19,6 @@
       "dogName": "Byron",
       "dogBreed": "Poodle",
       "id": 4
-    },
-    {
-      "dogName": "Bubby",
-      "dogBreed": "Poodle",
-      "submit": "Submit",
-      "id": 5
     }
   ],
   "cats": [
@@ -39,26 +33,7 @@
       "id": 2
     }
   ],
-  "users": [
-    {
-      "id": 1
-    },
-    {
-      "name": "Steve",
-      "email": "steve@steve.com",
-      "id": 2
-    },
-    {
-      "name": "Sam",
-      "email": "sam@sam.com",
-      "id": 3
-    },
-    {
-      "name": "Jim",
-      "email": "jim@jim.com",
-      "id": 4
-    }
-  ],
+  "users": [],
   "robots": [
     {
       "robotName": "C8-09S100K",

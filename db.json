@@ -15,6 +15,28 @@
       "dogBreed": "Brittany Spaniel",
       "submit": "Submit",
       "id": 3
+    },
+    {
+      "dogName": "Fido",
+      "dogBreed": "Irish Setter",
+      "submit": "Submit",
+      "id": 4
+    },
+    {
+      "dogName": "Byron",
+      "dogBreed": "Poodle",
+      "id": 5
+    },
+    {
+      "dogName": "Byron",
+      "dogBreed": "Poodle",
+      "id": 6
+    },
+    {
+      "dogName": "Clifford",
+      "dogBreed": "Big Red Dog",
+      "submit": "Submit",
+      "id": 7
     }
   ],
   "cats": [

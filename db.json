@@ -52,6 +52,16 @@
       "dogName": "Byron",
       "dogBreed": "Poodle",
       "id": 10
+    },
+    {
+      "dogName": "Pongo",
+      "dogBreed": "Dalmatian",
+      "id": 11
+    },
+    {
+      "dogName": "Soda",
+      "dogBreed": "Goldendoodle",
+      "id": 12
     }
   ],
   "cats": [

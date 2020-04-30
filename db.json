@@ -37,6 +37,21 @@
       "dogBreed": "Big Red Dog",
       "submit": "Submit",
       "id": 7
+    },
+    {
+      "dogName": "Byron",
+      "dogBreed": "Poodle",
+      "id": 8
+    },
+    {
+      "dogName": "Byron",
+      "dogBreed": "Poodle",
+      "id": 9
+    },
+    {
+      "dogName": "Byron",
+      "dogBreed": "Poodle",
+      "id": 10
     }
   ],
   "cats": [

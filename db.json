@@ -1,5 +1,6 @@
 {
-  "dogs": [{
+  "dogs": [
+    {
       "dogName": "Luca",
       "dogBreed": "German Shepherd",
       "id": 1
@@ -8,9 +9,73 @@
       "dogName": "Lola",
       "dogBreed": "Giant Schnauzer",
       "id": 2
+    },
+    {
+      "dogName": "Roscoe",
+      "dogBreed": "Brittany Spaniel",
+      "submit": "Submit",
+      "id": 3
+    },
+    {
+      "dogName": "Fido",
+      "dogBreed": "Irish Setter",
+      "submit": "Submit",
+      "id": 4
+    },
+    {
+      "dogName": "Byron",
+      "dogBreed": "Poodle",
+      "id": 5
+    },
+    {
+      "dogName": "Byron",
+      "dogBreed": "Poodle",
+      "id": 6
+    },
+    {
+      "dogName": "Clifford",
+      "dogBreed": "Big Red Dog",
+      "submit": "Submit",
+      "id": 7
+    },
+    {
+      "dogName": "Byron",
+      "dogBreed": "Poodle",
+      "id": 8
+    },
+    {
+      "dogName": "Byron",
+      "dogBreed": "Poodle",
+      "id": 9
+    },
+    {
+      "dogName": "Byron",
+      "dogBreed": "Poodle",
+      "id": 10
+    },
+    {
+      "dogName": "Pongo",
+      "dogBreed": "Dalmatian",
+      "id": 11
+    },
+    {
+      "dogName": "Soda",
+      "dogBreed": "Goldendoodle",
+      "id": 12
+    },
+    {
+      "dogName": "Soda",
+      "dogBreed": "Goldendoodle",
+      "id": 13
+    },
+    {
+      "dogName": "Soda",
+      "dogBreed": "Goldendoodle",
+      "id": 14
     }
   ],
-  "cats": [{
+  "cats": [
+    {
       "catName": "Stanley",
       "catBreed": "Tabby",
       "id": 1
@@ -21,10 +86,56 @@
       "id": 2
     }
   ],
-  "users": [],
-  "robots": [{
-    "robotName": "C8-09S100K",
-    "robotType": "Human Assistant",
-    "id": 9000
-  }]
+  "users": [
+    {
+      "id": 1
+    },
+    {
+      "name": "Steven",
+      "email": "hello@world.com",
+      "id": 2
+    },
+    {
+      "name": "Sam",
+      "email": "spaz@crazycats.com",
+      "id": 3
+    },
+    {
+      "name": "Tim",
+      "email": "crouse@tbsp.com",
+      "id": 4
+    },
+    {
+      "name": "Betsy",
+      "email": "ibakecookies@yahoo.com",
+      "id": 5
+    },
+    {
+      "name": "Peter",
+      "email": "pt@cruiser.com",
+      "id": 6
+    },
+    {
+      "name": "Bilbo Baggins",
+      "email": "hobbit.elf_friend@shire.uk",
+      "id": 7
+    },
+    {
+      "name": "Saruman",
+      "email": "sarumanthewhite@isengard.me",
+      "id": 8
+    },
+    {
+      "name": "Peter Pevensie",
+      "email": "highkingpeterthemagnificent@cairparavel.narnia",
+      "id": 9
+    }
+  ],
+  "robots": [
+    {
+      "robotName": "C8-09S100K",
+      "robotType": "Human Assistant",
+      "id": 9000
+    }
+  ]
 }

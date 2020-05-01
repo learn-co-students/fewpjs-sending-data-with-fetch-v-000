@@ -86,7 +86,51 @@
       "id": 2
     }
   ],
-  "users": [],
+  "users": [
+    {
+      "id": 1
+    },
+    {
+      "name": "Steven",
+      "email": "hello@world.com",
+      "id": 2
+    },
+    {
+      "name": "Sam",
+      "email": "spaz@crazycats.com",
+      "id": 3
+    },
+    {
+      "name": "Tim",
+      "email": "crouse@tbsp.com",
+      "id": 4
+    },
+    {
+      "name": "Betsy",
+      "email": "ibakecookies@yahoo.com",
+      "id": 5
+    },
+    {
+      "name": "Peter",
+      "email": "pt@cruiser.com",
+      "id": 6
+    },
+    {
+      "name": "Bilbo Baggins",
+      "email": "hobbit.elf_friend@shire.uk",
+      "id": 7
+    },
+    {
+      "name": "Saruman",
+      "email": "sarumanthewhite@isengard.me",
+      "id": 8
+    },
+    {
+      "name": "Peter Pevensie",
+      "email": "highkingpeterthemagnificent@cairparavel.narnia",
+      "id": 9
+    }
+  ],
   "robots": [
     {
       "robotName": "C8-09S100K",

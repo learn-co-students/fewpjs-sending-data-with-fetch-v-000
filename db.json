@@ -26,6 +26,12 @@
       "dogBreed": "Delicious",
       "submit": "Submit",
       "id": 5
+    },
+    {
+      "dogName": "Beau",
+      "dogBreed": "Mutt",
+      "submit": "Submit",
+      "id": 6
     }
   ],
   "cats": [

@@ -1,5 +1,6 @@
 // Add your code here
 
+
 function submitData(name, email) {
   return fetch("http://localhost:3000/users", {
     method: "POST",
@@ -8,7 +9,7 @@ function submitData(name, email) {
       "Accept": "application/json"
     },
     body: JSON.stringify({
-      name ,
+      name,
       email
     })
   })
@@ -22,6 +23,8 @@ function submitData(name, email) {
     document.body.innerHTML = error.message
   });
 };
+
+
 
 // let formData = {
 //   dogName: "Byron",

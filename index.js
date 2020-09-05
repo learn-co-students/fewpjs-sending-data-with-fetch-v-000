@@ -20,7 +20,7 @@ fetch("http://localhost:3000/users", configObj)
         return response.json();
     })
     .then(function (results) {
-        results.configObj.forEach(id => addId(id))
+        document.body.append(id)
 
     })
 };

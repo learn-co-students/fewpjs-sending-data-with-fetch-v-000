@@ -20,7 +20,9 @@ fetch("http://localhost:3000/users", configObj)
         return response.json();
     })
     .then(function (results) {
-        document.body.append(id)
-
+        // document.body.appendChild(id)
+        // .appendChild(document.createElement('id'));
+        var newDiv = document.createElement('div').innerHTML('id');
+        newDiv.appendChild('body');
     })
 };

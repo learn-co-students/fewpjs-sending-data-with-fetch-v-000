@@ -4,7 +4,7 @@ let formData = {
     email: "steve@steve.com"
   };
    
-  let submitData = {
+  let configObj = {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -13,15 +13,24 @@ let formData = {
     body: JSON.stringify(formData)
   };
    
-  fetch("http://localhost:3000/users", submitData)
+  function submitData() {
+    fetch("http://localhost:3000/users", configObj)
     .then(function(response) {
       return response.json();
-    //   return fetch();
     })
     .then(function(object) {
-      console.log(object);
+      renderData(object);
+    })
+    .catch(function(error) {
+      document.body.innerHTML = `<h1>${error.message}</h1>`;
+        return fetch("http://localhost:3000/users");
     });
-    // .catch(function(error) {
-    //     alert("Bad things! Ragnarők!");
-    //     console.log(error.message);
-    // });
+  }
+
+  function renderData(object) {
+    document.body.innerHTML = `<h2>${object.id}</h2>`;
+  }
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    submitData()
+  })

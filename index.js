@@ -11,6 +11,6 @@ function submitData(n, e){
   }
 
   return fetch("http://localhost:3000/users", configurationObject)
-  .then(resp =>  resp.json() ).then( function(data) { document.body.innerHTML = data["id"]})
+  .then(resp =>  resp.json() ).then( function(data) { document.body.textContent = data.id})
   .catch(function(err) { document.body.innerHTML = err.message })
 }

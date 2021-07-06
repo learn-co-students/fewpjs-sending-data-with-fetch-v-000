@@ -26,6 +26,12 @@
       "dogName": "Byron",
       "dogBreed": "Poodle",
       "id": 5
+    },
+    {
+      "dogName": "Poop",
+      "dogBreed": "Da Scoop",
+      "submit": "Submit",
+      "id": 6
     }
   ],
   "cats": [
@@ -50,6 +56,11 @@
       "name": "hellur",
       "email": "mydisnineinch@gmail.com",
       "id": 2
+    },
+    {
+      "name": "lewy",
+      "email": "p@test.com",
+      "id": 3
     }
   ],
   "robots": [
